@@ -1,6 +1,8 @@
 function swappingElements() {
+    const isMobile = window.innerWidth < 1020;
+    
     // select parent of the replaceable elements
-    const parent = document.querySelector("nav").children[0].children[2].children[0];
+    const parent = isMobile ? document.querySelector("aside > nav").children[0] : document.querySelector("nav").children[0].children[2].children[0];
 
     // select all element and store on variable;
     const learn = parent.children[0];
