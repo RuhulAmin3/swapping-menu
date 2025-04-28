@@ -1,0 +1,1 @@
+Just Copy the code from the script file and paste into the browser console.
